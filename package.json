@@ -1,0 +1,28 @@
+{
+  "name": "socket-io-capitalize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephklause-401-advanced-javascript/socket-io-capitalize.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josephklause-401-advanced-javascript/socket-io-capitalize/issues"
+  },
+  "homepage": "https://github.com/josephklause-401-advanced-javascript/socket-io-capitalize#readme",
+  "dependencies": {
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0"
+  }
+}
