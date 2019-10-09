@@ -3,9 +3,9 @@ const { readFile } = require('../lib/reader');
 describe('reader', () => {
 
   it('reads from a file', () => {
-    readFile('./data/text-file.txt')
+    readFile(__dirname + '/data/reader-text.txt')
       .then(result => {
-        expect(result).toBe('text to use in program');
+        expect(result).toEqual('hello');
       });
   });
 });
