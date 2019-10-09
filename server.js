@@ -11,4 +11,12 @@ io.on('connection', socket => {
     socket.broadcast.emit('write-file', data);
   });
 
+  socket.on('file-saved', () => {
+    console.log('File is updated!');
+  });
+
+  socket.on('file-error', error => {
+    console.log(error);
+  });
+
 });

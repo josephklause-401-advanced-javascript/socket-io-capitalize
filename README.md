@@ -7,8 +7,8 @@
 ### Author: Joe Klause
 
 ### Links and Resources
-* [submission PR]()
-* [travis]()
+* [submission PR](https://github.com/josephklause-401-advanced-javascript/socket-io-capitalize/pull/1)
+* [travis](https://travis-ci.com/josephklause-401-advanced-javascript/socket-io-capitalize)
 
 ### Running this app
 Write some text in the 'data/text-file.txt' folder to be capitalized.
